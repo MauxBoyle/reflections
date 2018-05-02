@@ -3,3 +3,18 @@ Q: Why do you need to do it?
 
 Initializing the repository puts the git metadata in your folder
 You need to do it to be able to track changes in git.
+
+Q: How is the staging area different from the working directory and the repository?
+Q: What value do you think it offers?
+
+It is a good in-between area that allows you to keep your repository organized.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+You can move each changed file to the staging area separately and also
+ compare to the previous commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when trying something out that might not work, or that might not be implemented in the final version.
+ 
