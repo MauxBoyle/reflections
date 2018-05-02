@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository?
+Q: Why do you need to do it?
+
+Initializing the repository puts the git metadata in your folder
+You need to do it to be able to track changes in git.

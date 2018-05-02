@@ -1,0 +1,41 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Looking at a lot of text at once can be a bit numbing.
+Particularly in practice, when there may or may not be differences.
+By using the diff, we were limited to only seeing short sections of text
+that definitely had a difference between them.
+
+For reference, the mac command is diff -u file-a.xxx file-b.xxx
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This one is less obvious.
+I guess you wouldn't have to manually keep many versions around and potentially get the wrong one.
+You could take risks, knowing that the changes aren't necessarily permanent.
+That's all I can think of for now.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+ vs having versions automatically saved, like Google Docs does?
+
+The pros are that each commit represents a discrete step in the process. The cons are that one has to remember to do
+  the commits, which can be especially tricky when really absorbed in a project.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+ like Google Docs, treat each file separately?
+
+Git was built with coding in mind. Possibly because of imported libraries and other dependancies, it makes sense for
+ code to be thought of in terms of multiple files. From a practical point of view, if making a logical change involves
+ multiple files, the programmer might not remember to re-commit each file when finished with the change.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+git log will show you a summary of the changes that have been made, with corresponding commit IDs.
+With git diff, you can get the details of changes between any two files.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+Version control is a guarantee that I can always go back to a version of my file that worked properly.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+Lots of things, but primarily building a Python/ Data Viz portfolio so that I can get a job!
